@@ -53,7 +53,7 @@
 /**
  *  The default currency for the bank account.
  */
-@property (nonatomic, readonly) NSString *currency;
+@property (nonatomic, copy) NSString *currency;
 
 /**
  *  Whether or not the bank account has been validated via microdeposits or other means.
