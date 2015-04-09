@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license                        = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage                       = 'https://stripe.com/docs/mobile/ios'
   s.authors                        = { 'Jack Flintermann' => 'jack@stripe.com', 'Stripe' => 'support+github@stripe.com' }
-  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git', :tag => "v#{s.version}" }
+  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git' }
   s.ios.frameworks                 = 'Foundation', 'Security'
   s.osx.frameworks                 = 'Foundation', 'Security', 'WebKit'
   s.requires_arc                   = true
